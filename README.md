@@ -1,40 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+Algo Root is a React.js/Next.js-based web application that provides user authentication and a dashboard featuring a data table with filtering and sorting capabilities. The application is designed to be responsive and user-friendly.
 
-## Getting Started
+Features
 
-First, run the development server:
+User Authentication: Secure login and sign-up system with local storage session management.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Dashboard: Displays user details in a sortable and filterable table.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Responsive Design: Works seamlessly across different screen sizes.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+State Management: Utilizes React's useState, useEffect, and useMemo hooks.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Data Handling: Fetches and manages data efficiently.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Pagination Support: Allows easy navigation through large datasets.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Technologies Used
 
-## Learn More
+Next.js (React framework for server-side rendering)
 
-To learn more about Next.js, take a look at the following resources:
+React.js (Component-based UI development)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Tailwind CSS (Modern utility-first styling)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+@tanstack/react-table (Efficient table handling)
 
-## Deploy on Vercel
+Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Login using the credentials stored in local storage.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+View and manage user data in a structured table format.
+
+Filter and sort data using the search input and column sorting features.
+
+Paginate through large datasets with navigation buttons.
